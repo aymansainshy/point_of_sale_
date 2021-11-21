@@ -1,0 +1,51 @@
+name: pos
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^5.0.0
+  equatable: ^2.0.0
+  flutter_bloc: ^7.0.0
+  sweetalert: ^0.0.1
+  cupertino_icons: ^1.0.2
+  google_fonts: ^2.0.0
+  dio: ^4.0.0
+  flutter_secure_storage: ^4.1.0
+  device_info: ^2.0.0
+  socket_io_client: ^2.0.0-beta.3-nullsafety.0
+  location: ^4.1.1
+  http: ^0.13.4
+  # shared_preferences: ^0.5.6+1
+  dots_indicator: ^2.0.0
+  flappy_search_bar: 1.4.1
+  sqflite: ^2.0.0+4
+  json_serializable: ^6.0.1
+  connectivity_plus: ^2.0.2
+  data_table_2: ^2.1.1
+  get: ^4.3.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
